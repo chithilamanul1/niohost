@@ -1,0 +1,106 @@
+.theme-setting{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1200;
+  transition: all 0.2s;
+  .theme-setting-link{
+    position: absolute;
+    top: 20%;
+    left: -44px;
+    width: 45px;
+    height: 45px;
+    background-color: $tertiary;
+    color: $light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+  }
+
+  .theme-setting-body{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 250px;
+    height: 435px;
+    background-color: $gray-200;
+    box-shadow: 0 0 15px rgb(28 39 60 / 10%);
+    padding: 20px;
+    border-radius: 0 0 0 0.25rem;
+    overflow-y: scroll;
+  }
+  &.show{
+    right: 200px;
+    .theme-setting-link{
+      position: relative;
+      background-color: $light;
+      color: $tertiary;
+      box-shadow: -5px 0 10px rgb(28 39 60 / 10%);
+    }
+  }
+}
+
+.customize-color{
+  .theme-color{
+    padding: 4px;
+    span{
+      width: 75px;
+      height: 30px;
+    }
+    &:hover{
+      border-color: $light !important;
+    }
+    &.active{
+      border-color: $primary !important;
+      background-color: $light;
+    }
+  }
+
+}
+
+.default-primary{
+  background-color: #0948b3;
+}
+.default-accent{
+  background-color: #014cda;
+}
+.default-tertiary{
+  background-color: #f67a3c;
+}
+
+.theme-1-primary{
+  background-color: #4a338d;
+}
+.theme-1-accent{
+  background-color: #7759ce;
+}
+.theme-1-tertiary{
+  background-color: #fc5185;
+}
+
+
+.theme-2-primary{
+  background-color: #14532d;
+}
+.theme-2-accent{
+  background-color: #15803d;
+}
+.theme-2-tertiary{
+  background-color: #ff9f29;
+}
+
+
+.theme-3-primary{
+  background-color: #153462;
+}
+.theme-3-accent{
+  background-color: #163B88;
+}
+.theme-3-tertiary{
+  background-color: #1062fe;
+}

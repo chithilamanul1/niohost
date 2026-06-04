@@ -1,0 +1,100 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+//
+// Reboot
+// --------------------------------------------------
+
+// Import Google Fonts (Rubik)
+@import url($path-to-fonts);
+
+html * {
+  @include font-smoothing;
+}
+
+//box sizing
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  &,
+  &:before,
+  &:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  html {
+    font-size: 88%;
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+//list
+ul:last-child {
+  margin: 0;
+}
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: $transition-base;
+  &:hover {
+    color: $tertiary;
+  }
+}
+.badge{
+  line-height: initial;
+  font-weight: $font-weight-medium;
+}

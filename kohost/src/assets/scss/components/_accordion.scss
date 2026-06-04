@@ -1,0 +1,152 @@
+//
+// Base styles
+//
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size:$font-size-base;
+  text-align: left; // Reset button style
+  border: 0;
+  font-weight: $font-weight-semibold;
+  &:not(.collapsed) {
+    color: $light;
+    background-color: $primary;
+    background-image: none;
+    &::after {
+      color: $light;
+    }
+  }
+
+  // Accordion icon
+  &::after {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    content: "\f106";
+    float: right;
+    transition: 0.5s;
+    width: 30px;
+    text-align: center;
+    background-image: none;
+    border-radius: 4px;
+  }
+
+  &:hover {
+    z-index: 2;
+  }
+
+  &:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.accordion-header {
+  margin-bottom: 0;
+}
+
+
+// Flush accordion items
+//
+// Remove borders and border-radius to keep accordion items edge-to-edge.
+
+.accordion-flush {
+  .accordion-collapse {
+    border-width: 0;
+  }
+
+  .accordion-item {
+    border-right: 0;
+    border-left: 0;
+
+    &:first-child { border-top: 0; }
+    &:last-child { border-bottom: 0; }
+  }
+}
+
+
+//how it work accordion
+.how-it-work{
+  .accordion-button{
+    &:after{
+      transform: rotate(-90deg);
+    }
+  }
+  .accordion-button:not(.collapsed){
+    &:after{
+      transform: rotate(0deg);
+    }
+  }
+}
+
+//accordion or faq style
+
+.gray-light-bg {
+  .faq-wrap {
+    .card {
+      .card-body {
+        background: $white !important;
+      }
+    }
+  }
+}
+
+
+.faq-wrap {
+  .card {
+    border: 0;
+    .card-header {
+      padding: 0.95rem 1.25rem;
+      -webkit-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.12);
+      box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.12);
+      border-radius: 4px 4px 0 0;
+      background: $primary;
+      margin-bottom: 0;
+      border: 1px solid $border-color;
+      h6 {
+        color: $white;
+      }
+      &.collapsed {
+        background: transparent;
+        h6 {
+          color: initial;
+        }
+        &:after {
+          content: "\f107";
+          transition: 0.5s;
+          color: rgba($primary, 0.8%);
+        }
+      }
+      &:after {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f106";
+        color: $white;
+        float: right;
+        transition: 0.5s;
+        width: 30px;
+        text-align: center;
+        background: rgba($primary, 0.05%);
+        border-radius: 4px;
+      }
+    }
+    .card-body {
+      background: $gray-100;
+      border-radius: 0 0 4px 4px;
+    }
+  }
+}
+
+//faq two style
+
+.single-faq {
+  h5 {
+    span {
+      font-size: 22px;
+      font-weight: $font-weight-bold;
+    }
+  }
+}

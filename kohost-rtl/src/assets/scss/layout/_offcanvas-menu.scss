@@ -1,0 +1,55 @@
+.offcanvas {
+  z-index: 9999;
+}
+
+.offcanvas-menu-wrap {
+  .dropdown-toggle {
+    &:after {
+      position: absolute;
+      right: 0;
+      top: 6px;
+      content: "\f107";
+      font-family: "Font Awesome 6 Free";
+      border: none;
+      font-weight: 900;
+    }
+  }
+
+  .u-header__product-banner,
+  .application-hosting {
+    border-radius: 0 0 3px 3px;
+  }
+
+  .title-with-icon-link {
+    padding: 12px 15px;
+  }
+
+  small,
+  .small {
+    font-size: 95%;
+  }
+
+  .dropdown-item {
+    padding: 0.4rem 0.5rem;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      font-family: $font-family-monospace;
+      font-weight: $font-weight-semibold;
+    }
+
+    .dropdown-menu {
+      position: relative !important;
+      width: 100%;
+      transform: translate(0, 0) !important;
+      border: none;
+      padding-top: 0;
+
+      .row {
+        border: 1px solid $card-border-color;
+        border-radius: 4px;
+      }
+    }
+  }
+}

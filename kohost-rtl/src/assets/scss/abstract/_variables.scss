@@ -1,0 +1,348 @@
+// Gray and brand colors to use across the Theme.
+
+// Grayscale
+$white: #fff !default;
+$gray-100: #f8fafc !default;
+$gray-200: #fafafa !default;
+$gray-300: #e2e8f0 !default;
+$gray-400: #cbd5e1 !default;
+$gray-500: #898f98 !default;
+$gray-600: #64748b !default;
+$gray-700: #475569 !default;
+$gray-800: #363636 !default;
+$gray-900: #1e293b !default;
+$black: #000 !default;
+
+// Brand colors
+$primary: #0948b3 !default;
+$accent: #014cda !default;
+$tertiary: #f67a3c !default;
+$secondary: $gray-200 !default;
+$info: #38bdf8 !default;
+$success: #4bad44 !default;
+$warning: #f59e0b !default;
+$danger: #ff0505 !default;
+$light: $white !default;
+$dark: #02345c !default;
+$body-9: #ebf8fe !default;
+
+// Adding new color to default Bootstrap's $theme-colors map
+$theme-colors: (
+        'primary': $primary,
+        'accent': $accent,
+        'tertiary': $tertiary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark,
+        "body-9": $body-9,
+        ) !default;
+
+// Faded colors map
+$theme-faded-colors: (
+        'primary': rgba($primary, .09),
+        'accent': rgba($accent, .09),
+        'tertiary': rgba($tertiary, .09),
+        "success": rgba($success, .09),
+        "info": rgba($info, .09),
+        "warning": rgba($warning, .09),
+        "danger": rgba($danger, .09),
+        "light": rgba($light, .09),
+        "dark": rgba($dark, .09),
+        ) !default;
+
+// Social brand colors
+$facebook: #3b5999;
+$twitter: #1da1f2;
+$google: #dd4b39;
+$instagram: #e4405f;
+$pinterest: #bd081c;
+$youtube: #cd201f;
+$slack: #3aaf85;
+$dribbble: #ea4c89;
+$github: #222222;
+$dropbox: #1E90FF;
+$twitch: #4B367C;
+$paypal: #ecb32c;
+$behance: #0057ff;
+$reddit: #E84422;
+$linkedin: #0077b5;
+
+$brand-colors: (
+);
+$brand-colors: map-merge(("facebook": $facebook,
+                        "twitter": $twitter,
+                        "google": $google,
+                        "instagram": $instagram,
+                        "pinterest": $pinterest,
+                        "youtube": $youtube,
+                        "slack": $slack,
+                        "dribbble": $dribbble,
+                        "dropbox": $dropbox,
+                        "twitch": $twitch,
+                        "paypal": $paypal,
+                        "behance": $behance,
+                        "reddit" : $reddit,
+                        "github": $github,
+                        "linkedin": $linkedin,
+                ), $brand-colors);
+
+// Font Weight
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// animation
+$global-transition: all 300ms ease-in-out !default;
+
+// Spacing
+
+$spacer: 1rem !default;
+$grid-gutter-width: 1.875rem !default;
+
+// Modifying default Bootstrap's $spacers map
+$spacers: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        10: ($spacer * 10),
+        'grid-gutter': $grid-gutter-width) !default;
+
+
+// Body
+
+$body-color: $gray-700 !default;
+
+
+// Lists
+
+$list-style-color: $accent !default;
+
+//Card
+$card-border-color: rgba(darken($gray-200, 40%), .15) !default;
+
+
+// Links
+
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 10%) !default;
+$link-hover-decoration: none !default;
+$link-transition: color .25s ease-in-out !default;
+$link-shade-percentage: 0% !default;
+
+//transition
+$transition-base: all .3s ease-in-out !default;
+
+
+// Grid breakpoints
+//
+// Modifying default Bootstrap's $grid-breakpoints map
+$grid-breakpoints: (
+        xs: 0,
+        sm: 500px,
+        md: 768px,
+        lg: 992px,
+        xl: 1280px,
+        xxl: 1400px) !default;
+
+
+// Grid containers
+//
+// Modifying default Bootstrap's $container-max-widths map (max-width of .container)
+// $container-max-widths: (
+//         sm: 100%,
+//         md: 100%,
+//         lg: 100%,
+//         xl: 1320px) !default;
+
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$border-width: 1px !default;
+$border-color: $gray-300 !default;
+$border-light-color: rgba($white, .12) !default;
+
+// Border colors map
+$border-colors: (
+        'primary': rgba($primary, .35),
+        'accent': rgba($accent, .35),
+        "success": rgba($success, .35),
+        "info": rgba($info, .35),
+        "warning": rgba($warning, .35),
+        "danger": rgba($danger, .35),
+        "light": $border-light-color,
+        "dark": rgba($dark, .35),
+        ) !default;
+
+$border-radius: .3125rem !default;
+$border-radius-lg: .4375rem !default;
+$border-radius-sm: .25rem !default;
+
+$box-shadow: 0 .25rem 0.5625rem -.0625rem rgba($black, .03),
+        0 .275rem 1.25rem -.0625rem rgba($black, .05) !default;
+$box-shadow-lg: 0 .3rem 1.525rem -.375rem rgba($black, .1) !default;
+$box-shadow-sm: 0 .125rem 0.3rem -.0625rem rgba($black, .03),
+        0 .275rem .75rem -.0625rem rgba($black, .06) !default;
+$box-shadow-inset: inset 0 1px 2px transparent !default;
+
+
+$caret-width: .275rem !default;
+
+$component-active-bg: $primary !default;
+
+
+
+//fonts
+
+$path-to-fonts: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap' !default;
+
+
+$font-family-sans-serif: 'Inter',
+        Helvetica,
+        sans-serif !default;
+$font-family-monospace: 'Inter',
+        sans-serif !default;
+
+$font-family-base: $font-family-sans-serif;
+$headings-color: $gray-800 !default;
+
+$font-size-base: .9375rem !default;
+$font-size-xl: (
+        $font-size-base * 1.625) !default;
+$font-size-lg: (
+        $font-size-base * 1.125) !default;
+$font-size-md: (
+        $font-size-base * .9375) !default;
+$font-size-sm: (
+        $font-size-base * .875) !default;
+$font-size-ms: (
+        $font-size-base * .8125) !default;
+$font-size-xs: (
+        $font-size-base * .75) !default;
+
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base * 1.0625 !default;
+
+// Modifying default Bootstrap's $font-sizes map
+$font-sizes: (
+        1: $h1-font-size,
+        2: $h2-font-size,
+        3: $h3-font-size,
+        4: $h4-font-size,
+        5: $h5-font-size,
+        6: $h6-font-size,
+        'xl': $font-size-xl,
+        'lg': $font-size-lg,
+        'base': $font-size-base,
+        'md': $font-size-md,
+        'sm': $font-size-sm,
+        'ms': $font-size-ms,
+        'xs': $font-size-xs) !default;
+$font-weight-light: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semibold: 600 !default;
+$headings-font-family: $font-family-monospace !default;
+$headings-margin-bottom: (
+        $spacer * .625) !default;
+$headings-font-weight: $font-weight-medium !default;
+$lead-font-weight: 400 !default;
+$line-height-base: 1.7 !default;
+$line-height-lg: 1.75 !default;
+$line-height-sm: 1.5 !default;
+
+$display-font-sizes: (
+        1: 5rem,
+        2: 4.5rem,
+        3: 4rem,
+        4: 3.5rem,
+        5: 3rem,
+        6: 2.5rem,
+        404: 10rem) !default;
+// Buttons + Forms
+
+$input-btn-padding-y: .625rem !default;
+$input-btn-padding-x: 1rem !default;
+$input-btn-padding-y-sm: .425rem !default;
+$input-btn-padding-x-sm: .75rem !default;
+$input-btn-padding-y-lg: .75rem !default;
+$input-btn-padding-x-lg: 1.25rem !default;
+$input-btn-focus-width: 0 !default;
+
+$input-btn-font-size: (
+        $font-size-base * .875) !default;
+$input-btn-font-size-sm: (
+        $font-size-base * .8125) !default;
+$input-btn-font-size-lg: (
+        $font-size-base * 1.0625) !default;
+// Buttons
+$btn-font-family: $font-family-monospace !default;
+$btn-padding-x: 1.375rem !default;
+$btn-padding-x-sm: 1rem !default;
+$btn-padding-x-lg: 1.5rem !default;
+$btn-white-space: nowrap !default;
+
+$btn-dark-color: $white !default;
+$btn-light-color: $gray-700 !default;
+$btn-font-weight: $font-weight-medium !default;
+$btn-box-shadow: unset !default;
+
+$btn-icon-size: 2.75rem !default;
+$btn-icon-sm-size: 2.25rem !default;
+$btn-icon-lg-size: 3.25rem !default;
+$btn-icon-xl-size: 4.55rem !default;
+
+$btn-transition: color .25s ease-in-out,
+        background-color .25s ease-in-out,
+        border-color .25s ease-in-out,
+        box-shadow .2s ease-in-out !default;
+
+// Badges
+
+$badge-padding-y: .125rem !default;
+$badge-padding-x: .5rem !default;
+$badge-font-size: $font-size-xs !default;
+$badge-font-weight: normal !default;
+$badge-border-radius: .188rem !default;
+
+//Opacity
+$opacity-1: 0.1;
+$opacity-2: 0.2;
+$opacity-3: 0.3;
+$opacity-4: 0.4;
+$opacity-5: 0.5;
+$opacity-6: 0.6;
+$opacity-7: 0.7;
+$opacity-8: 0.8;
+$opacity-9: 0.9;
+$opacity-10: 1;
+
+//Z-Index Scale
+
+$zIndex-1: 100 !default;
+$zIndex-2: 200 !default;
+$zIndex-3: 300 !default;
+$zIndex-4: 400 !default;
+$zIndex-5: 500 !default;
+$zIndex-6: 600 !default;
+$zIndex-7: 700 !default;
+$zIndex-8: 800 !default;
+$zIndex-9: 900 !default;
+
+//Components Z-Index
+
+$header-z-index: $zIndex-1 !default;
+$menu-z-index: $zIndex-2 !default;

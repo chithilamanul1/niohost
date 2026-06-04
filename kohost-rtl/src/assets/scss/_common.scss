@@ -1,0 +1,61 @@
+/*
+* Kohost v9.0.0 - Modern Web Hosting & WHMCS Template
+* Copyright 2022 Themetags
+* Licensed under ThemeForest License
+* Author: https://themeforest.net/user/themetags
+*/
+
+
+//Abstract
+@import "bootstrap/scss/functions";
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "abstract/functions";
+
+
+//Vendor.
+@import "bootstrap/scss/bootstrap";
+@import "vendors/main";
+
+//Base
+@import "base/base";
+@import "base/typography";
+@import "base/helper";
+
+
+//Layout
+@import "layout/header";
+@import "layout/offcanvas-menu";
+@import "layout/footer";
+@import "layout/preloader";
+@import "layout/scroll-up";
+
+//Components
+@import 'components/accordion';
+@import 'components/badge';
+@import 'components/forms';
+@import 'components/animation';
+@import 'components/background-image';
+@import 'components/promo';
+@import 'components/hero-section';
+@import 'components/buttons';
+@import 'components/location-map';
+@import 'components/testimonial';
+@import 'components/customer';
+@import 'components/social-icon';
+@import 'components/services';
+@import 'components/features';
+
+
+//Page
+@import "pages/page-header";
+@import "pages/about-us";
+@import "pages/contact-us";
+@import "pages/blog";
+@import "pages/login-signup";
+@import "pages/utility";
+@import "pages/price";
+@import "pages/home-9";
+
+//theme
+@import "themes/theme-switcher";

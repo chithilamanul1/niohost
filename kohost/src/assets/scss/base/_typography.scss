@@ -1,0 +1,55 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  font-family: $font-family-sans-serif;
+}
+.fw-semibold{
+  font-weight: $font-weight-semibold;
+}
+.fw-medium{
+  font-weight: $font-weight-medium;
+}
+.body-font{
+  font-family: $font-family-sans-serif;
+}
+.heading-font{
+  font-family: $font-family-monospace;
+}
+
+
+// custom font and google fonts variable
+$font-family-roboto: "Roboto", sans-serif;
+$font-family-montserrat: "Montserrat", sans-serif;
+$font-family-open-sans: "Open Sans", sans-serif;
+$font-family-work-sans: "Work Sans", sans-serif;
+$font-family-system: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto,
+  sans-serif;
+
+// Fonts
+
+//$font-size-base: 0.977rem;
+//$line-height-base: 1.75;
+//$font-family-base: $font-family-roboto;
+//$headings-font-family: $font-family-roboto;
+
+$headings-font-weight: $font-weight-semibold;
+$headings-line-height: 1.25;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: $font-weight-bold;
+  line-height: 1.25;
+  font-family: $headings-font-family;
+  color: $headings-color;
+}

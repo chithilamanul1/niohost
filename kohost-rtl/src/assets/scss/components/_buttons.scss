@@ -1,0 +1,96 @@
+//
+// Buttons
+// --------------------------------------------------
+
+
+// Override solid buttons
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    &:hover, &:active, &:focus,
+    &.active, &.show {
+      border-color: darken($value, 12%);
+      background-color: darken($value, 12%);
+    }
+  }
+}
+.btn-primary, .btn-success,
+.btn-danger, .btn-warning,
+.btn-info, .btn-dark, .btn-tertiary {
+  color: $btn-dark-color !important;
+}
+.btn-secondary,
+.btn-outline-secondary,
+.btn-light {
+  &, &:hover {
+    color: $btn-light-color !important;
+    border-color: transparent;
+  }
+}
+.btn-secondary {
+  border-color: $border-color;
+}
+.btn-light:hover,
+.btn-light:not(:disabled):not(.disabled):active,
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled).show {
+  border-color: $light;
+  background-color: $light;
+}
+
+
+// Outline buttons
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    border-color: rgba($value, .35);
+  }
+}
+[class^='btn-outline-'], [class*=' btn-outline-'] {
+  &:hover, &:active,
+  &.active, &.show {
+    color: $btn-dark-color !important;
+  }
+}
+.btn-outline-light {
+  &:hover, &:active,
+  &.active, &.show {
+    color: $btn-light-color !important;
+  }
+}
+.btn-outline-secondary {
+  border-color: $gray-400;
+  &:hover, &:active,
+  &.active, &.show {
+    border-color: $gray-400 !important;
+    color: $btn-light-color !important;
+  }
+}
+
+.btn-shadow:hover { box-shadow: none; }
+// Adding box-shadow to all solid buttons
+
+@each $color, $value in $theme-colors {
+  @if $color != 'secondary' or $color != 'light' {
+    .btn-#{$color}.btn-shadow {
+      box-shadow: 0 .5rem 1rem -0.35rem rgba($value, .5);
+    }
+  }
+}
+
+
+
+//read more link
+.read-more-link {
+  font-weight: $font-weight-medium;
+  font-family: $font-family-monospace;
+  transition: $transition-base;
+  i{
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover{
+    i{
+      transform: translateX(3px);
+    }
+  }
+}
