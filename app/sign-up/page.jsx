@@ -77,8 +77,9 @@ export default function signupPage() {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <h6 className="mb-3 mt-3">Billing Address</h6>
+                            <h6 className="mb-3 mt-3">Billing Address</h6>
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="form-group mb-3">

@@ -1446,8 +1446,8 @@ export default function indexvideoPage() {
 
         
         <section className="hero-section position-relative min-vh-100 background-video-overly flex-column d-flex justify-content-center">
-            <video poster="assets/img/video-overlay.jpg" className="fit-cover w-100 h-100 position-absolute z--1" autoplay="" muted="" loop="" id="myVideo">
-                <source src="http://assets.Seranex lanka solutions seranex.lk.com/Nio Host/video/rotation-planet-1.mp4" type="video/mp4">
+            <video poster="assets/img/video-overlay.jpg" className="fit-cover w-100 h-100 position-absolute z--1" autoPlay loop muted id="myVideo">
+                <source src="http://assets.Seranex lanka solutions seranex.lk.com/Nio Host/video/rotation-planet-1.mp4" type="video/mp4" />
             </video>
             <div className="container">
                 <div className="row align-items-center justify-content-center">

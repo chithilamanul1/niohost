@@ -1,5 +1,5 @@
 
-export default function 404Page() {
+export default function Custom404Page() {
   return (
     <>
       
