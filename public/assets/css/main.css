@@ -25689,8 +25689,8 @@ readers do not read off random characters that represent icons */
 }
 @font-face {
   font-family: "themify";
-  src: url("../fonts/themify.eot");
-  src: url("../fonts/themify.eot?#iefix") format("embedded-opentype"), url("../fonts/themify.woff") format("woff"), url("../fonts/themify.ttf") format("truetype"), url("../fonts/themify.svg") format("svg");
+  src: none;
+  src: none format("embedded-opentype"), none format("woff"), none format("truetype"), none format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -30763,7 +30763,7 @@ input[type=search]::-webkit-search-results-decoration {
   width: 100%;
   height: 100%;
   top: 0;
-  background-image: url("../img/about-bg-shape.svg");
+  background-image: none;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34541,3 +34541,4 @@ table > tbody > tr > td:first-child:before {
 }
 
 /*# sourceMappingURL=main.css.map */
+
