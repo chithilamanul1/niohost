@@ -6,7 +6,7 @@ export default function pricingdefaultPage() {
     
     <div id="preloader">
         <div className="preloader-wrap">
-            <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+            <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
             <div className="preloader">
                 <i>.</i>
                 <i>.</i>
@@ -23,7 +23,7 @@ export default function pricingdefaultPage() {
                 <nav className="js-mega-menu navbar navbar-expand-md header-nav">
                     
                     <a className="navbar-brand pt-0" href="/index">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
                     </a>
                     
 
@@ -491,37 +491,37 @@ export default function pricingdefaultPage() {
                                         <ul className="application-hosting-list">
                                             <li>
                                                 <a href="/wp-hosting">
-                                                    <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                                     WordPress Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/joomla-hosting">
-                                                    <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                                     Joomla Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/magento-hosting">
-                                                    <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                                     Magento Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/opencart-hosting">
-                                                    <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                                     Opencart Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/prestashop-hosting">
-                                                    <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                                     Prestashop Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/drupal-hosting">
-                                                    <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                                     Drupal Hosting
                                                 </a>
                                             </li>
@@ -661,7 +661,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/contact-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Contact Us</span>
                                                     <small className="u-header__promo-text">
@@ -676,7 +676,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/about-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">About Us</span>
                                                     <small className="u-header__promo-text">
@@ -691,7 +691,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/partners">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Our Partner</span>
                                                     <small className="u-header__promo-text">
@@ -706,7 +706,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/network">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Network</span>
                                                     <small className="u-header__promo-text">
@@ -721,7 +721,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/blog-grid">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Company Blog</span>
                                                     <small className="u-header__promo-text">
@@ -756,7 +756,7 @@ export default function pricingdefaultPage() {
         <div className="offcanvas offcanvas-start" id="offcanvasLeft" tabindex="-1">
             <div className="offcanvas-header border-bottom">
                 <a className="navbar-brand" href="/index">
-                    <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                    <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                 </a>
                 <button className="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
             </div>
@@ -1192,37 +1192,37 @@ export default function pricingdefaultPage() {
                                 <ul className="application-hosting-list">
                                     <li>
                                         <a href="/wp-hosting">
-                                            <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                             WordPress Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/joomla-hosting">
-                                            <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                             Joomla Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/magento-hosting">
-                                            <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                             Magento Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/opencart-hosting">
-                                            <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                             Opencart Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/prestashop-hosting">
-                                            <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                             Prestashop Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/drupal-hosting">
-                                            <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                             Drupal Hosting
                                         </a>
                                     </li>
@@ -1358,7 +1358,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/contact-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Contact Us</span>
                                                     <small className="u-header__promo-text">
@@ -1371,7 +1371,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/about-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">About Us</span>
                                                     <small className="u-header__promo-text">
@@ -1384,7 +1384,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/partners">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Our Partner</span>
                                                     <small className="u-header__promo-text">
@@ -1397,7 +1397,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/network">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Network</span>
                                                     <small className="u-header__promo-text">
@@ -1410,7 +1410,7 @@ export default function pricingdefaultPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/blog-grid">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Company Blog</span>
                                                     <small className="u-header__promo-text">
@@ -1479,7 +1479,7 @@ export default function pricingdefaultPage() {
                     <div className="col-lg-4 col-md-6 col-sm-8">
                         <div className="text-center bg-white single-pricing-pack-2 mt-4 rounded border">
                             <div className="pricing-icon">
-                                <img src="assets/img/dadicate-web-hosting.svg" width="60" alt="hosing" />
+                                <img src="/assets/img/dadicate-web-hosting.svg" width="60" alt="hosing" />
                             </div>
                             <h4 className="package-title h5">Web Hosting</h4>
                             <p className="mb-4">For small business</p>
@@ -1493,7 +1493,7 @@ export default function pricingdefaultPage() {
                     <div className="col-lg-4 col-md-6 col-sm-8">
                         <div className="popular-price text-center bg-white single-pricing-pack-2 mt-4 rounded border">
                             <div className="pricing-icon">
-                                <img src="assets/img/vps-hosting.svg" width="60" alt="hosing" />
+                                <img src="/assets/img/vps-hosting.svg" width="60" alt="hosing" />
                             </div>
                             <h4 className="package-title h5">VPS Hosting</h4>
                             <p className="mb-4">For medium business</p>
@@ -1507,7 +1507,7 @@ export default function pricingdefaultPage() {
                     <div className="col-lg-4 col-md-6 col-sm-8">
                         <div className="text-center bg-white single-pricing-pack-2 mt-4 rounded border">
                             <div className="pricing-icon">
-                                <img src="assets/img/cloud-hosting.svg" width="60" alt="hosing" />
+                                <img src="/assets/img/cloud-hosting.svg" width="60" alt="hosing" />
                             </div>
                             <h4 className="package-title h5">Cloud Hosting</h4>
                             <p className="mb-4">Large and enterprise business</p>
@@ -1604,7 +1604,7 @@ export default function pricingdefaultPage() {
             <div className="row">
                 <div className="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
                     <a href="#" className="d-block">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                     </a>
                     <br />
                     <p>
@@ -1804,3 +1804,4 @@ export default function pricingdefaultPage() {
     </>
   );
 }
+

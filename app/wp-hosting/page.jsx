@@ -6,7 +6,7 @@ export default function wphostingPage() {
     
     <div id="preloader">
         <div className="preloader-wrap">
-            <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+            <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
             <div className="preloader">
                 <i>.</i>
                 <i>.</i>
@@ -23,7 +23,7 @@ export default function wphostingPage() {
                 <nav className="js-mega-menu navbar navbar-expand-md header-nav">
                     
                     <a className="navbar-brand pt-0" href="/index">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
                     </a>
                     
 
@@ -491,37 +491,37 @@ export default function wphostingPage() {
                                         <ul className="application-hosting-list">
                                             <li>
                                                 <a href="/wp-hosting">
-                                                    <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                                     WordPress Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/joomla-hosting">
-                                                    <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                                     Joomla Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/magento-hosting">
-                                                    <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                                     Magento Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/opencart-hosting">
-                                                    <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                                     Opencart Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/prestashop-hosting">
-                                                    <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                                     Prestashop Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/drupal-hosting">
-                                                    <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                                     Drupal Hosting
                                                 </a>
                                             </li>
@@ -661,7 +661,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/contact-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Contact Us</span>
                                                     <small className="u-header__promo-text">
@@ -676,7 +676,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/about-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">About Us</span>
                                                     <small className="u-header__promo-text">
@@ -691,7 +691,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/partners">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Our Partner</span>
                                                     <small className="u-header__promo-text">
@@ -706,7 +706,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/network">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Network</span>
                                                     <small className="u-header__promo-text">
@@ -721,7 +721,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/blog-grid">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Company Blog</span>
                                                     <small className="u-header__promo-text">
@@ -756,7 +756,7 @@ export default function wphostingPage() {
         <div className="offcanvas offcanvas-start" id="offcanvasLeft" tabindex="-1">
             <div className="offcanvas-header border-bottom">
                 <a className="navbar-brand" href="/index">
-                    <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                    <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                 </a>
                 <button className="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
             </div>
@@ -1192,37 +1192,37 @@ export default function wphostingPage() {
                                 <ul className="application-hosting-list">
                                     <li>
                                         <a href="/wp-hosting">
-                                            <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                             WordPress Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/joomla-hosting">
-                                            <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                             Joomla Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/magento-hosting">
-                                            <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                             Magento Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/opencart-hosting">
-                                            <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                             Opencart Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/prestashop-hosting">
-                                            <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                             Prestashop Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/drupal-hosting">
-                                            <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                             Drupal Hosting
                                         </a>
                                     </li>
@@ -1358,7 +1358,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/contact-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Contact Us</span>
                                                     <small className="u-header__promo-text">
@@ -1371,7 +1371,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/about-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">About Us</span>
                                                     <small className="u-header__promo-text">
@@ -1384,7 +1384,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/partners">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Our Partner</span>
                                                     <small className="u-header__promo-text">
@@ -1397,7 +1397,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/network">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Network</span>
                                                     <small className="u-header__promo-text">
@@ -1410,7 +1410,7 @@ export default function wphostingPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/blog-grid">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Company Blog</span>
                                                     <small className="u-header__promo-text">
@@ -1457,7 +1457,7 @@ export default function wphostingPage() {
                     </div>
                     <div className="col-md-6 col-lg-6">
                         <div className="img-wrap text-lg-end">
-                            <img src="assets/img/wp-hosting.svg" alt="email hosting" className="img-fluid" />
+                            <img src="/assets/img/wp-hosting.svg" alt="email hosting" className="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -1479,12 +1479,12 @@ export default function wphostingPage() {
                     <div className="col-12">
                         <div className="application-hosting-wrap">
                             <ul className="app-list operating-list">
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/os-img-1.png" alt="icon" /> <span>CentOS</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/os-img-2.png" alt="icon" /> <span>Debian GNU/Linux</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/os-img-3.png" alt="icon" /> <span>cPanel</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/os-img-4.png" alt="icon" /> <span>Fedora</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/os-img-5.png" alt="icon" /> <span>Plesk</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/os-img-6.png" alt="icon" /> <span>Suse</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/os-img-1.png" alt="icon" /> <span>CentOS</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/os-img-2.png" alt="icon" /> <span>Debian GNU/Linux</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/os-img-3.png" alt="icon" /> <span>cPanel</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/os-img-4.png" alt="icon" /> <span>Fedora</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/os-img-5.png" alt="icon" /> <span>Plesk</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/os-img-6.png" alt="icon" /> <span>Suse</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1508,7 +1508,7 @@ export default function wphostingPage() {
                         <div className="wp-single-price">
                             <div className="wp-price-head mb-4">
                                 <h3 className="mb-1 h4">WordPress Web Hosting</h3>
-                                <img src="assets/img/powered-by-cpanel.svg" alt="power by cpanel" width="200" className="img-fluid" />
+                                <img src="/assets/img/powered-by-cpanel.svg" alt="power by cpanel" width="200" className="img-fluid" />
                             </div>
                             <ul className="wp-price-feature-list">
                                 <li className="py-1"><i className="far fa-check fa-lg text-success mr-2"></i> <span>We host hundreds of thousands of Wordpress sites on our cPanel web hosting.</span></li>
@@ -1526,7 +1526,7 @@ export default function wphostingPage() {
                         <div className="wp-single-price">
                             <div className="wp-price-head mb-4">
                                 <h3 className="mb-1 h4">Managed WordPress Hosting</h3>
-                                <img src="assets/img/powered-by-onyx.svg" alt="power by onyx" width="200" className="img-fluid" />
+                                <img src="/assets/img/powered-by-onyx.svg" alt="power by onyx" width="200" className="img-fluid" />
                             </div>
                             <ul className="wp-price-feature-list">
                                 <li className="py-1"><i className="far fa-check fa-lg text-success mr-2"></i> <span>Bespoke WordPress-optimised system designed in the US.</span></li>
@@ -1656,7 +1656,7 @@ export default function wphostingPage() {
                     </div>
                     <div className="col-md-6 col-lg-4 d-none d-lg-block">
                         <div className="cta-img-wrap text-center">
-                            <img src="assets/img/call-center-support.svg" width="250" className="img-fluid" alt="server room" />
+                            <img src="/assets/img/call-center-support.svg" width="250" className="img-fluid" alt="server room" />
                         </div>
                     </div>
                 </div>
@@ -1747,7 +1747,7 @@ export default function wphostingPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1767,7 +1767,7 @@ export default function wphostingPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-1.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-1.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1787,7 +1787,7 @@ export default function wphostingPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-3.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-3.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1807,7 +1807,7 @@ export default function wphostingPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-4.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-4.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1834,7 +1834,7 @@ export default function wphostingPage() {
             <div className="row">
                 <div className="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
                     <a href="#" className="d-block">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                     </a>
                     <br />
                     <p>
@@ -2034,3 +2034,4 @@ export default function wphostingPage() {
     </>
   );
 }
+

@@ -16,20 +16,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
           <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
+          {/* Global Template Scripts */}
+          <Script src="/assets/js/vendors/jquery-3.6.0.min.js" strategy="beforeInteractive" />
+          <Script src="/assets/js/vendors/bootstrap.bundle.min.js" strategy="beforeInteractive" />
+          <Script src="/assets/js/vendors/bootstrap-slider.min.js" strategy="beforeInteractive" />
+          <Script src="/assets/js/vendors/swiper-bundle.min.js" strategy="beforeInteractive" />
+          <Script src="/assets/js/vendors/magnific-popup.min.js" strategy="beforeInteractive" />
+          <Script src="/assets/js/vendors/validator.min.js" strategy="beforeInteractive" />
+          <Script src="/assets/js/vendors/hs.megamenu.js" strategy="beforeInteractive" />
+          <Script src="/assets/js/app.js" strategy="beforeInteractive" />
       </head>
       <body>
         <DarkModeToggle />
         {children}
-
-        {/* Global Template Scripts */}
-        <Script src="/assets/js/vendors/jquery-3.6.0.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/bootstrap-slider.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/swiper-bundle.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/magnific-popup.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/validator.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/hs.megamenu.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/app.js" strategy="beforeInteractive" />
       </body>
     </html>
   );

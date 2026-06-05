@@ -6,7 +6,7 @@ export default function passwordresetPage() {
     
     <div id="preloader">
         <div className="preloader-wrap">
-            <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+            <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
             <div className="preloader">
                 <i>.</i>
                 <i>.</i>
@@ -22,7 +22,7 @@ export default function passwordresetPage() {
                 <div className="col-12 col-md-8 col-lg-6">
                     <div className="login-signup-wrap p-5 gray-light-bg rounded shadow">
                         <div className="login-signup-header text-center">
-                            <a href="/index"><img src="assets/img/nio.png" className="img-fluid mb-3" alt="Logo" /></a>
+                            <a href="/index"><img src="/assets/img/nio.png" className="img-fluid mb-3" alt="Logo" /></a>
                             <h5 className="mb-5">Reset Your Account</h5>
                         </div>
                         <form className="login-signup-form">
@@ -121,3 +121,4 @@ export default function passwordresetPage() {
     </>
   );
 }
+

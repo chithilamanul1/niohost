@@ -6,7 +6,7 @@ export default function index9Page() {
     
     <div id="preloader">
         <div className="preloader-wrap">
-            <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+            <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
             <div className="preloader">
                 <i>.</i>
                 <i>.</i>
@@ -27,7 +27,7 @@ export default function index9Page() {
                     <nav className="js-mega-menu navbar navbar-expand-md header-nav">
                         
                         <a className="navbar-brand pt-0" href="/index">
-                            <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
+                            <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
                         </a>
                         
 
@@ -495,37 +495,37 @@ export default function index9Page() {
                                             <ul className="application-hosting-list">
                                                 <li>
                                                     <a href="/wp-hosting">
-                                                        <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                                        <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                                         WordPress Hosting
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="/joomla-hosting">
-                                                        <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                                        <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                                         Joomla Hosting
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="/magento-hosting">
-                                                        <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                                        <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                                         Magento Hosting
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="/opencart-hosting">
-                                                        <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                                        <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                                         Opencart Hosting
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="/prestashop-hosting">
-                                                        <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                                        <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                                         Prestashop Hosting
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="/drupal-hosting">
-                                                        <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                                        <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                                         Drupal Hosting
                                                     </a>
                                                 </li>
@@ -665,7 +665,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/contact-us">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Contact Us</span>
                                                         <small className="u-header__promo-text">
@@ -680,7 +680,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/about-us">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">About Us</span>
                                                         <small className="u-header__promo-text">
@@ -695,7 +695,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/partners">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Our Partner</span>
                                                         <small className="u-header__promo-text">
@@ -710,7 +710,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/network">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Network</span>
                                                         <small className="u-header__promo-text">
@@ -725,7 +725,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/blog-grid">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Company Blog</span>
                                                         <small className="u-header__promo-text">
@@ -760,7 +760,7 @@ export default function index9Page() {
             <div className="offcanvas offcanvas-start" id="offcanvasLeft" tabindex="-1">
                 <div className="offcanvas-header border-bottom">
                     <a className="navbar-brand" href="/index">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                     </a>
                     <button className="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
                 </div>
@@ -1196,37 +1196,37 @@ export default function index9Page() {
                                     <ul className="application-hosting-list">
                                         <li>
                                             <a href="/wp-hosting">
-                                                <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                                <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                                 WordPress Hosting
                                             </a>
                                         </li>
                                         <li>
                                             <a href="/joomla-hosting">
-                                                <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                                <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                                 Joomla Hosting
                                             </a>
                                         </li>
                                         <li>
                                             <a href="/magento-hosting">
-                                                <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                                <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                                 Magento Hosting
                                             </a>
                                         </li>
                                         <li>
                                             <a href="/opencart-hosting">
-                                                <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                                <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                                 Opencart Hosting
                                             </a>
                                         </li>
                                         <li>
                                             <a href="/prestashop-hosting">
-                                                <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                                <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                                 Prestashop Hosting
                                             </a>
                                         </li>
                                         <li>
                                             <a href="/drupal-hosting">
-                                                <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                                <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                                 Drupal Hosting
                                             </a>
                                         </li>
@@ -1362,7 +1362,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/contact-us">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Contact Us</span>
                                                         <small className="u-header__promo-text">
@@ -1375,7 +1375,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/about-us">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">About Us</span>
                                                         <small className="u-header__promo-text">
@@ -1388,7 +1388,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/partners">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Our Partner</span>
                                                         <small className="u-header__promo-text">
@@ -1401,7 +1401,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/network">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Network</span>
                                                         <small className="u-header__promo-text">
@@ -1414,7 +1414,7 @@ export default function index9Page() {
                                         <div className="title-with-icon-item">
                                             <a className="title-with-icon-link" href="/blog-grid">
                                                 <div className="d-flex align-items-center">
-                                                    <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                    <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                     <div className="media-body">
                                                         <span className="u-header__promo-title">Company Blog</span>
                                                         <small className="u-header__promo-text">
@@ -1475,7 +1475,7 @@ export default function index9Page() {
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-7">
-                        <img src="assets/img/hero_9_img.png" alt="Image" className="img-fluid" />
+                        <img src="/assets/img/hero_9_img.png" alt="Image" className="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -1743,28 +1743,28 @@ export default function index9Page() {
                 <div className="row g-4">
                     <div className="col-sm-6 col-xl-3">
                         <div className="bg-white p-4 shadow-sm rounded-3 h-100">
-                            <img src="assets/img/host_9_icon_1.png" alt="Image" className="img-fluid mb-4" />
+                            <img src="/assets/img/host_9_icon_1.png" alt="Image" className="img-fluid mb-4" />
                             <h3 className="h5">Managed hosting for WordPress</h3>
                             <p className="mb-0">Focus on content while we handle updates, security, and performance.</p>
                         </div>
                     </div>
                     <div className="col-sm-6 col-xl-3">
                         <div className="bg-white p-4 shadow-sm rounded-3 h-100">
-                            <img src="assets/img/host_9_icon_2.png" alt="Image" className="img-fluid mb-4" />
+                            <img src="/assets/img/host_9_icon_2.png" alt="Image" className="img-fluid mb-4" />
                             <h3 className="h5">Nio Host Website <br /> Builder</h3>
                             <p className="mb-0">Focus on content while we handle updates, security, and performance.</p>
                         </div>
                     </div>
                     <div className="col-sm-6 col-xl-3">
                         <div className="bg-white p-4 shadow-sm rounded-3 h-100">
-                            <img src="assets/img/host_9_icon_3.png" alt="Image" className="img-fluid mb-4" />
+                            <img src="/assets/img/host_9_icon_3.png" alt="Image" className="img-fluid mb-4" />
                             <h3 className="h5">Nio Host <br /> Horizons</h3>
                             <p className="mb-0">Focus on content while we handle updates, security, and performance.</p>
                         </div>
                     </div>
                     <div className="col-sm-6 col-xl-3">
                         <div className="bg-white p-4 shadow-sm rounded-3 h-100">
-                            <img src="assets/img/host_9_icon_4.png" alt="Image" className="img-fluid mb-4" />
+                            <img src="/assets/img/host_9_icon_4.png" alt="Image" className="img-fluid mb-4" />
                             <h3 className="h5">AI content <br /> tools</h3>
                             <p className="mb-0">Focus on content while we handle updates, security, and performance.</p>
                         </div>
@@ -1779,7 +1779,7 @@ export default function index9Page() {
             <div className="container">
                 <div className="row align-items-center g-4">
                     <div className="col-md-6">
-                        <img src="assets/img/sicurity_img.png" alt="Image" className="img-fluid" />
+                        <img src="/assets/img/sicurity_img.png" alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-md-6">
                         <div className="ps-xl-4">
@@ -1824,21 +1824,21 @@ export default function index9Page() {
                 <div className="row justify-content-center g-4">
                     <div className="col-sm-6 col-lg-4">
                         <div className="bg-white p-4 shadow-sm rounded-3 h-100">
-                            <img src="assets/img/host_9_icon_5.png" alt="Image" className="img-fluid mb-4" />
+                            <img src="/assets/img/host_9_icon_5.png" alt="Image" className="img-fluid mb-4" />
                             <h3 className="h5">Local data <br /> Around the world.</h3>
                             <p className="max-text-34 mb-0">Wherever you are in the world, your site will automatically connect to the closest data center in our global network. Extra efficiency at no extra cost.</p>
                         </div>
                     </div>
                     <div className="col-sm-6 col-lg-4">
                         <div className="bg-white p-4 shadow-sm rounded-3 h-100">
-                            <img src="assets/img/host_9_icon_6.png" alt="Image" className="img-fluid mb-4" />
+                            <img src="/assets/img/host_9_icon_6.png" alt="Image" className="img-fluid mb-4" />
                             <h3 className="h5">Full speed ahead. <br />Whatever the traffic.</h3>
                             <p className="max-text-34 mb-0">Wherever you are in the world, your site will automatically connect to the closest data center in our global network. Extra efficiency at no extra cost.</p>
                         </div>
                     </div>
                     <div className="col-sm-6 col-lg-4">
                         <div className="bg-white p-4 shadow-sm rounded-3 h-100">
-                            <img src="assets/img/host_9_icon_7.png" alt="Image" className="img-fluid mb-4" />
+                            <img src="/assets/img/host_9_icon_7.png" alt="Image" className="img-fluid mb-4" />
                             <h3 className="h5">Live and kicking. <br />24/7.</h3>
                             <p className="max-text-34 mb-0">Wherever you are in the world, your site will automatically connect to the closest data center in our global network. Extra efficiency at no extra cost.</p>
                         </div>
@@ -1872,7 +1872,7 @@ export default function index9Page() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1892,7 +1892,7 @@ export default function index9Page() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-1.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-1.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1912,7 +1912,7 @@ export default function index9Page() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-3.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-3.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1932,7 +1932,7 @@ export default function index9Page() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-4.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-4.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1952,7 +1952,7 @@ export default function index9Page() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1986,40 +1986,40 @@ export default function index9Page() {
                     <div className="col-xl-10">
                         <div className="row align-items-center g-4">
                             <div className="col-sm-6 col-lg-3">
-                                <img src="assets/img/tp_icon.png" alt="Image" className="img-fluid mb-2" />
-                                <img src="assets/img/tp_reating.png" alt="Image" className="img-fluid mb-2" />
+                                <img src="/assets/img/tp_icon.png" alt="Image" className="img-fluid mb-2" />
+                                <img src="/assets/img/tp_reating.png" alt="Image" className="img-fluid mb-2" />
                                 <p className="text-dark fs-xs mb-0">TrustScore: <strong>4.7 52,898</strong> reviews</p>
                             </div>
                             <div className="col-sm-6 col-lg-3">
-                                <img src="assets/img/google_9.png" alt="Image" className="img-fluid mb-3" />
+                                <img src="/assets/img/google_9.png" alt="Image" className="img-fluid mb-3" />
                                 <div className="d-flex align-items-center gap-2 mb-3">
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
                                 </div>
                                 <p className="text-dark fs-xs mb-0">Rating: <strong>4.8/5 1,237</strong> reviews</p>
                             </div>
                             <div className="col-sm-6 col-lg-3">
-                                <img src="assets/img/hosta_9.png" alt="Image" className="img-fluid mb-3" />
+                                <img src="/assets/img/hosta_9.png" alt="Image" className="img-fluid mb-3" />
                                 <div className="d-flex align-items-center gap-2 mb-3">
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
                                 </div>
                                 <p className="text-dark fs-xs mb-0">Rating: <strong>4.8/5 1,237</strong> reviews</p>
                             </div>
                             <div className="col-sm-6 col-lg-3">
-                                <img src="assets/img/wpb_9.png" alt="Image" className="img-fluid mb-3" />
+                                <img src="/assets/img/wpb_9.png" alt="Image" className="img-fluid mb-3" />
                                 <div className="d-flex align-items-center gap-2 mb-3">
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
-                                    <img src="assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
+                                    <img src="/assets/img/star_9.png" alt="Image" className="img-fluid" />
                                 </div>
                                 <p className="text-dark fs-xs mb-0">Rating: <strong>4.8/5 1,237</strong> reviews</p>
                             </div>
@@ -2057,7 +2057,7 @@ export default function index9Page() {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <img src="assets/img/support_9_img.png" alt="Image" className="img-fluid" />
+                        <img src="/assets/img/support_9_img.png" alt="Image" className="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -2138,7 +2138,7 @@ export default function index9Page() {
                             <a href="#" className="btn btn-tertiary mr-3">Get Started</a>
                         </div>
                         <div className="col-lg-4">
-                            <img src="assets/img/cta_9_img.png" alt="Image" className="img-fluid" />
+                            <img src="/assets/img/cta_9_img.png" alt="Image" className="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -2165,42 +2165,42 @@ export default function index9Page() {
                             <div className="swiper-wrapper">
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-01.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-01.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-02.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-02.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-03.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-03.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-04.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-04.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-05.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-05.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-06.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-06.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-07.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-07.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-08.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-08.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                             </div>
@@ -2218,7 +2218,7 @@ export default function index9Page() {
             <div className="row">
                 <div className="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
                     <a href="#" className="d-block">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                     </a>
                     <br />
                     <p>
@@ -2418,4 +2418,5 @@ export default function index9Page() {
     </>
   );
 }
+
 

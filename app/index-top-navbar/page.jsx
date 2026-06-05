@@ -6,7 +6,7 @@ export default function indextopnavbarPage() {
     
     <div id="preloader">
         <div className="preloader-wrap">
-            <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+            <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
             <div className="preloader">
                 <i>.</i>
                 <i>.</i>
@@ -61,7 +61,7 @@ export default function indextopnavbarPage() {
                 <nav className="js-mega-menu navbar navbar-expand-md header-nav">
                     
                     <a className="navbar-brand pt-0" href="/index">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} />
                     </a>
                     
 
@@ -523,37 +523,37 @@ export default function indextopnavbarPage() {
                                         <ul className="application-hosting-list">
                                             <li>
                                                 <a href="/wp-hosting">
-                                                    <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                                     WordPress Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/joomla-hosting">
-                                                    <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                                     Joomla Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/magento-hosting">
-                                                    <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                                     Magento Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/opencart-hosting">
-                                                    <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                                     Opencart Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/prestashop-hosting">
-                                                    <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                                     Prestashop Hosting
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/drupal-hosting">
-                                                    <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                                    <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                                     Drupal Hosting
                                                 </a>
                                             </li>
@@ -693,7 +693,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/contact-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Contact Us</span>
                                                     <small className="u-header__promo-text">
@@ -708,7 +708,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/about-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">About Us</span>
                                                     <small className="u-header__promo-text">
@@ -723,7 +723,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/partners">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Our Partner</span>
                                                     <small className="u-header__promo-text">
@@ -738,7 +738,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/network">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Network</span>
                                                     <small className="u-header__promo-text">
@@ -753,7 +753,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/blog-grid">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Company Blog</span>
                                                     <small className="u-header__promo-text">
@@ -788,7 +788,7 @@ export default function indextopnavbarPage() {
         <div className="offcanvas offcanvas-start" id="offcanvasLeft" tabindex="-1">
             <div className="offcanvas-header border-bottom">
                 <a className="navbar-brand" href="/index">
-                    <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                    <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                 </a>
                 <button className="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
             </div>
@@ -1224,37 +1224,37 @@ export default function indextopnavbarPage() {
                                 <ul className="application-hosting-list">
                                     <li>
                                         <a href="/wp-hosting">
-                                            <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" />
                                             WordPress Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/joomla-hosting">
-                                            <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" />
                                             Joomla Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/magento-hosting">
-                                            <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/magento-icon-color.svg" alt="icon" />
                                             Magento Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/opencart-hosting">
-                                            <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" />
                                             Opencart Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/prestashop-hosting">
-                                            <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" />
                                             Prestashop Hosting
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/drupal-hosting">
-                                            <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
+                                            <img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" />
                                             Drupal Hosting
                                         </a>
                                     </li>
@@ -1390,7 +1390,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/contact-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/chat-mobile.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Contact Us</span>
                                                     <small className="u-header__promo-text">
@@ -1403,7 +1403,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/about-us">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/community.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">About Us</span>
                                                     <small className="u-header__promo-text">
@@ -1416,7 +1416,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/partners">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/partner.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Our Partner</span>
                                                     <small className="u-header__promo-text">
@@ -1429,7 +1429,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/network">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/network.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Network</span>
                                                     <small className="u-header__promo-text">
@@ -1442,7 +1442,7 @@ export default function indextopnavbarPage() {
                                     <div className="title-with-icon-item">
                                         <a className="title-with-icon-link" href="/blog-grid">
                                             <div className="d-flex align-items-center">
-                                                <img className="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
+                                                <img className="menu-titile-icon" src="/assets/img/blog.svg" alt="SVG" />
                                                 <div className="media-body">
                                                     <span className="u-header__promo-title">Company Blog</span>
                                                     <small className="u-header__promo-text">
@@ -1495,7 +1495,7 @@ export default function indextopnavbarPage() {
                     </div>
                     <div className="col-md-6 col-sm-12 col-lg-6">
                         <div className="img-wrap">
-                            <img src="assets/img/hero-img-new.svg" alt="hosting" className="img-fluid" />
+                            <img src="/assets/img/hero-img-new.svg" alt="hosting" className="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -1528,15 +1528,15 @@ export default function indextopnavbarPage() {
                             </form>
                             <div className="domain-list-wrap text-center">
                                 <ul className="list-inline domain-search-list">
-                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/com.png" alt="com" width="70" className="img-fluid" /> <span>$8.99</span></a>
+                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="/assets/img/com.png" alt="com" width="70" className="img-fluid" /> <span>$8.99</span></a>
                                     </li>
-                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/online.png" alt="com" width="70" className="img-fluid" /> <span>$0.99</span></a>
+                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="/assets/img/online.png" alt="com" width="70" className="img-fluid" /> <span>$0.99</span></a>
                                     </li>
-                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/net.png" alt="com" width="70" className="img-fluid" /> <span>$4.99</span></a>
+                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="/assets/img/net.png" alt="com" width="70" className="img-fluid" /> <span>$4.99</span></a>
                                     </li>
-                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/org.png" alt="com" width="70" className="img-fluid" /> <span>$2.99</span></a>
+                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="/assets/img/org.png" alt="com" width="70" className="img-fluid" /> <span>$2.99</span></a>
                                     </li>
-                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/store.png" alt="com" width="70" className="img-fluid" /> <span>$0.99</span></a>
+                                    <li className="list-inline-item bg-white border rounded"><a href="#"><img src="/assets/img/store.png" alt="com" width="70" className="img-fluid" /> <span>$0.99</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -1562,12 +1562,12 @@ export default function indextopnavbarPage() {
                     <div className="col-12">
                         <div className="application-hosting-wrap">
                             <ul className="app-list">
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" /> <span>WordPress</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/icons/joomla-icon-color.svg" alt="icon" /> <span>Joomla</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/icons/magento-icon-color.svg" alt="icon" /> <span>Megento</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/icons/opencart-icon-color.svg" alt="icon" /> <span>OpenCart</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" /> <span>Prestashop</span></a></li>
-                                <li><a href="#" className="bg-white shadow text-dark"><img src="assets/img/icons/drupal-icon-color.svg" alt="icon" /> <span>Drupal</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/icons/wordpress-icon-color.svg" alt="icon" /> <span>WordPress</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/icons/joomla-icon-color.svg" alt="icon" /> <span>Joomla</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/icons/magento-icon-color.svg" alt="icon" /> <span>Megento</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/icons/opencart-icon-color.svg" alt="icon" /> <span>OpenCart</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/icons/prestashop-icon-color.svg" alt="icon" /> <span>Prestashop</span></a></li>
+                                <li><a href="#" className="bg-white shadow text-dark"><img src="/assets/img/icons/drupal-icon-color.svg" alt="icon" /> <span>Drupal</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1591,7 +1591,7 @@ export default function indextopnavbarPage() {
                     </div>
                     <div className="col-md-5 col-lg-4">
                         <div className="cta-img-wrap text-center">
-                            <img src="assets/img/cta-new.svg" className="img-fluid" alt="server room" />
+                            <img src="/assets/img/cta-new.svg" className="img-fluid" alt="server room" />
                         </div>
                     </div>
                 </div>
@@ -1716,7 +1716,7 @@ export default function indextopnavbarPage() {
                     <div className="col-lg-4 col-md-6 col-sm-8">
                         <div className="text-center bg-white single-pricing-pack-2 mt-4 rounded border">
                             <div className="pricing-icon">
-                                <img src="assets/img/dadicate-web-hosting.svg" width="60" alt="hosing" />
+                                <img src="/assets/img/dadicate-web-hosting.svg" width="60" alt="hosing" />
                             </div>
                             <h4 className="package-title h5">Web Hosting</h4>
                             <p className="mb-4">For small business</p>
@@ -1730,7 +1730,7 @@ export default function indextopnavbarPage() {
                     <div className="col-lg-4 col-md-6 col-sm-8">
                         <div className="popular-price text-center bg-white single-pricing-pack-2 mt-4 rounded border">
                             <div className="pricing-icon">
-                                <img src="assets/img/vps-hosting.svg" width="60" alt="hosing" />
+                                <img src="/assets/img/vps-hosting.svg" width="60" alt="hosing" />
                             </div>
                             <h4 className="package-title h5">VPS Hosting</h4>
                             <p className="mb-4">For medium business</p>
@@ -1744,7 +1744,7 @@ export default function indextopnavbarPage() {
                     <div className="col-lg-4 col-md-6 col-sm-8">
                         <div className="text-center bg-white single-pricing-pack-2 mt-4 rounded border">
                             <div className="pricing-icon">
-                                <img src="assets/img/cloud-hosting.svg" width="60" alt="hosing" />
+                                <img src="/assets/img/cloud-hosting.svg" width="60" alt="hosing" />
                             </div>
                             <h4 className="package-title h5">Cloud Hosting</h4>
                             <p className="mb-4">Large and enterprise business</p>
@@ -1795,14 +1795,14 @@ export default function indextopnavbarPage() {
                     </div>
                     <div className="col-md-5 col-lg-6 d-none d-md-block d-lg-block">
                         <div className="feature-img-wrap text-center">
-                            <img src="assets/img/services.svg" className="img-fluid" alt="server room" />
+                            <img src="/assets/img/services.svg" className="img-fluid" alt="server room" />
                         </div>
                     </div>
                 </div>
                 <div className="row align-items-center justify-content-lg-between mt-5">
                     <div className="col-md-5 col-lg-6 d-none d-md-block d-lg-block">
                         <div className="feature-img-wrap text-center">
-                            <img src="assets/img/create-website.svg" className="img-fluid" alt="server room" />
+                            <img src="/assets/img/create-website.svg" className="img-fluid" alt="server room" />
                         </div>
                     </div>
                     <div className="col-md-7 col-lg-5">
@@ -1851,7 +1851,7 @@ export default function indextopnavbarPage() {
                     </div>
                     <div className="col-md-6 col-lg-4 d-none d-lg-block">
                         <div className="cta-img-wrap text-center">
-                            <img src="assets/img/call-center-support.svg" width="250" className="img-fluid" alt="server room" />
+                            <img src="/assets/img/call-center-support.svg" width="250" className="img-fluid" alt="server room" />
                         </div>
                     </div>
                 </div>
@@ -1903,7 +1903,7 @@ export default function indextopnavbarPage() {
                                     <span data-toggle="tooltip" data-placement="top" title="Australia"></span>
                                 </li>
                             </ul>
-                            <img src="assets/img/map-dark.svg" alt="location map" />
+                            <img src="/assets/img/map-dark.svg" alt="location map" />
                         </div>
                     </div>
                 </div>
@@ -1935,7 +1935,7 @@ export default function indextopnavbarPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1955,7 +1955,7 @@ export default function indextopnavbarPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-1.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-1.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1975,7 +1975,7 @@ export default function indextopnavbarPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-3.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-3.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -1995,7 +1995,7 @@ export default function indextopnavbarPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-4.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-4.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -2015,7 +2015,7 @@ export default function indextopnavbarPage() {
                                             </div>
                                             <div className="review-author d-flex align-items-center">
                                                 <div className="author-avatar">
-                                                    <img src="assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
+                                                    <img src="/assets/img/client-2.jpg" width="64" alt="author" className="rounded-circle shadow-sm img-fluid mr-3" />
                                                     <span>“</span>
                                                 </div>
                                                 <div className="review-info">
@@ -2128,42 +2128,42 @@ export default function indextopnavbarPage() {
                             <div className="swiper-wrapper">
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-01.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-01.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-02.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-02.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-03.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-03.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-04.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-04.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-05.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-05.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-06.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-06.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-07.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-07.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
                                     <div className="item single-customer">
-                                        <img src="assets/img/customers/clients-logo-08.png" alt="client logo" className="customer-logo" />
+                                        <img src="/assets/img/customers/clients-logo-08.png" alt="client logo" className="customer-logo" />
                                     </div>
                                 </div>
                             </div>
@@ -2182,7 +2182,7 @@ export default function indextopnavbarPage() {
             <div className="row">
                 <div className="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
                     <a href="#" className="d-block">
-                        <img src="assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
+                        <img src="/assets/img/nio.png" alt="logo" style={{ maxWidth: '160px' }} className="img-fluid" />
                     </a>
                     <br />
                     <p>
@@ -2382,4 +2382,5 @@ export default function indextopnavbarPage() {
     </>
   );
 }
+
 
