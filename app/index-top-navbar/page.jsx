@@ -29,7 +29,7 @@ export default function indextopnavbarPage() {
                         <li className="list-inline-item">
                             <i className="far fa-envelope me-1"></i>
                             Email:
-                            <a href="mailto:contact@niohost.lk">mail@nullphpscript.com</a>
+                            <a href="mailto:contact@niohost.lk">contact@niohost.lk</a>
                         </li>
                     </ul>
                 </div>
@@ -2382,3 +2382,4 @@ export default function indextopnavbarPage() {
     </>
   );
 }
+

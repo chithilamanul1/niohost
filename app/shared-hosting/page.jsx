@@ -1477,7 +1477,7 @@ export default function sharedhostingPage() {
                                                         Get all the essentials features
                                                         <strong>Starting at $2.59/mo</strong>
                                                     </p>
-                                                    <a href="https://nullphpscript.com/" className="btn btn-tertiary me-3">NULLPHPSCRIPT.COM</a>
+                                                    <a href="#" className="btn btn-tertiary me-3">Explore Plans</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1531,7 +1531,7 @@ export default function sharedhostingPage() {
                                                     </li>
                                                 </ul>
                                                 <div className="action-btns mt-4">
-                                                    <a href="https://nullphpscript.com/" className="btn btn-tertiary me-3">NULLPHPSCRIPT.COM</a>
+                                                    <a href="#" className="btn btn-tertiary me-3">Explore Plans</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1568,7 +1568,7 @@ export default function sharedhostingPage() {
                                                     </li>
                                                 </ul>
                                                 <div className="action-btns mt-4">
-                                                    <a href="https://nullphpscript.com/" className="btn btn-tertiary me-3">NULLPHPSCRIPT.COM</a>
+                                                    <a href="#" className="btn btn-tertiary me-3">Explore Plans</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -2354,3 +2354,4 @@ export default function sharedhostingPage() {
     </>
   );
 }
+

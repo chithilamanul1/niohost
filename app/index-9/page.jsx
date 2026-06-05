@@ -1471,7 +1471,7 @@ export default function index9Page() {
                             </li>
                         </ul>
                         <div className="action-btns mt-4">
-                            <a href="#" className="btn btn-tertiary mr-3">NULLPHPSCRIPT.COM</a>
+                            <a href="#" className="btn btn-tertiary mr-3">Explore Plans</a>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-7">
@@ -2418,3 +2418,4 @@ export default function index9Page() {
     </>
   );
 }
+

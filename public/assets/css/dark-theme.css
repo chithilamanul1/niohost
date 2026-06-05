@@ -1,0 +1,85 @@
+/* Custom Dark Theme Override for Nio Host */
+body.dark-theme {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Headings and Text */
+body.dark-theme h1, body.dark-theme h2, body.dark-theme h3, 
+body.dark-theme h4, body.dark-theme h5, body.dark-theme h6,
+body.dark-theme .h1, body.dark-theme .h2, body.dark-theme .h3, 
+body.dark-theme .h4, body.dark-theme .h5, body.dark-theme .h6,
+body.dark-theme p, body.dark-theme span, body.dark-theme li {
+    color: #f1f1f1 !important;
+}
+
+body.dark-theme a {
+    color: #66b2ff !important;
+}
+body.dark-theme a:hover {
+    color: #99ccff !important;
+}
+
+/* Backgrounds */
+body.dark-theme .bg-white, 
+body.dark-theme .bg-light, 
+body.dark-theme .gray-light-bg,
+body.dark-theme .white-bg {
+    background-color: #1e1e1e !important;
+}
+
+/* Components */
+body.dark-theme .card, 
+body.dark-theme .pricing-table, 
+body.dark-theme .feature-card,
+body.dark-theme .single-pricing-wrap,
+body.dark-theme .single-feature {
+    background-color: #242424 !important;
+    border-color: #333 !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5) !important;
+}
+
+/* Navbars & Footers */
+body.dark-theme .navbar,
+body.dark-theme .header-main {
+    background-color: #1e1e1e !important;
+    border-bottom: 1px solid #333;
+}
+body.dark-theme .footer-wrap {
+    background-color: #121212 !important;
+    border-top: 1px solid #333;
+}
+
+/* Specific elements */
+body.dark-theme .text-muted {
+    color: #a0a0a0 !important;
+}
+body.dark-theme .dropdown-menu {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+body.dark-theme .dropdown-item {
+    color: #f1f1f1 !important;
+}
+body.dark-theme .dropdown-item:hover {
+    background-color: #333 !important;
+}
+body.dark-theme .form-control {
+    background-color: #2a2a2a !important;
+    border-color: #444 !important;
+    color: #fff !important;
+}
+body.dark-theme .table {
+    color: #f1f1f1 !important;
+}
+body.dark-theme .table td, body.dark-theme .table th {
+    border-color: #444 !important;
+}
+
+/* Fix mobile menu text */
+body.dark-theme .navbar-toggler-icon {
+    filter: invert(1);
+}
+body.dark-theme .hs-mega-menu {
+    background-color: #1e1e1e !important;
+}

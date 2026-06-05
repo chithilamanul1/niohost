@@ -1452,7 +1452,7 @@ export default function emailhostingPage() {
                         <div className="hero-content-wrap text-white position-relative">
                             <h1 className="text-white">Best Email Hosting Plan for Your Online Business</h1>
                             <p className="lead">Web hosting made easy & affordable, choose a fine-tuned web hosting services solution for successful personal and business websites.</p>
-                            <a href="https://nullphpscript.com" className="btn btn-tertiary btn-lg mt-3">NULLPHPSCRIPT.COM</a>
+                            <a href="#" className="btn btn-tertiary btn-lg mt-3">Explore Plans</a>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-6">
@@ -1952,3 +1952,4 @@ export default function emailhostingPage() {
     </>
   );
 }
+

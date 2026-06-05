@@ -1458,7 +1458,7 @@ export default function indexblackfridayPage() {
                                 50% OFF
                             </div>
                             <h6 className="text-white text-uppercase font-weight-normal">For All Web Hosting Packages</h6>
-                            <div className="limited-time-text px-4 py-2">NULLPHPSCRIPT.COM</div>
+                            <div className="limited-time-text px-4 py-2">Explore Plans</div>
                         </div>
                     </div>
                     <div className="col-md-8 col-lg-6">
@@ -2287,3 +2287,4 @@ export default function indexblackfridayPage() {
     </>
   );
 }
+

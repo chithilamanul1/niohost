@@ -1454,7 +1454,7 @@ export default function domaincheckerPage() {
                             <p className="lead">Web hosting made easy & affordable, choose a fine-tuned web hosting services solution for successful personal and business websites.</p>
                             <div className="domain-checker-wrap">
                                 <form action="domain-search-result.php" className="domain-transfer-form newsletter-form position-relative w-75">
-                                    <input type="text" name="domain" id="domain" className="form-control rounded-pill" placeholder="nullphpscript.com" />
+                                    <input type="text" name="domain" id="domain" className="form-control rounded-pill" placeholder="yourdomain.com" />
                                     <button type="submit" className="btn btn-tertiary">Check now</button>
                                 </form>
                                 <div className="domain-list-wrap mt-4">
@@ -2209,3 +2209,4 @@ export default function domaincheckerPage() {
     </>
   );
 }
+

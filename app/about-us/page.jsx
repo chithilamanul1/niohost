@@ -1451,7 +1451,7 @@ export default function aboutusPage() {
                     <div className="col-md-7 col-lg-8">
                         <div className="hero-content-wrap text-white text-center position-relative">
                             <h1 className="text-white">About Us</h1>
-                            <h1 className="text-white">NULLPHPSCRIPT.COM</h1>
+                            <h1 className="text-white">Explore Plans</h1>
                             <p className="lead">Web hosting made easy & affordable, choose a fine-tuned web hosting services solution for successful personal and business websites.</p>
                         </div>
                     </div>
@@ -1965,3 +1965,4 @@ export default function aboutusPage() {
     </>
   );
 }
+
